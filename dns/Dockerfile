@@ -7,7 +7,7 @@ RUN apt upgrade -y
 RUN apt install bind9 bind9-utils dnsutils -y
 
 # Copy config files
-COPY sales.asa.br /etc/bind 
+COPY gleyka.asa.br /etc/bind 
 COPY named.conf.local /etc/bind 
 
 # Expose Ports
