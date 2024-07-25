@@ -10,6 +10,6 @@ $TTL	604800
 			 604800 )	; Negative Cache TTL
 ;
 @	IN	NS	ns.gleyka.asa.br.
-@	IN	A	10.25.1.207
-ns	IN	A	10.25.1.207
+@	IN	A	192.168.65.7
+ns	IN	A	192.168.65.7
 www	IN	CNAME	ns
