@@ -1,0 +1,4 @@
+zone "gleyka.asa.br" {
+    type master;
+    file "/etc/bind/db.gleyka.asa.br";
+};

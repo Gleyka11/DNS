@@ -3,13 +3,13 @@
 ;
 $TTL	604800
 @	IN	SOA	gleyka.asa.br. root.gleyka.asa.br. (
-			 2024071621; Serial
+				1 ; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
 @	IN	NS	ns.gleyka.asa.br.
-@	IN	A	192.168.65.7
-ns	IN	A	192.168.65.7
+@	IN	A	10.25.1.207
+ns	IN	A	10.25.1.207
 www	IN	CNAME	ns
