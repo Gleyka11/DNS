@@ -2,14 +2,16 @@
 ; BIND data file for local loopback interface
 ;
 $TTL	604800
-@	IN	SOA	gleyka.asa.br. root.gleyka.asa.br.
-				1 ; Serial
+@	IN	SOA	gleyka.asa.br. root.asa.br.
+				133 ; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800     ; Negative Cache TTL
 ;
-@	IN	NS	ns.gleyka.asa.br.
-@	IN	A	10.25.1.207
-ns	IN	A	10.25.1.207
-www	IN	CNAME	ns
+@	IN	MX 10 mail.asa.br.
+@	IN 	NS	ns1.asa.br.
+
+ns1		A	10.25.1.207
+mail	A	10.25.1.207
+www	IN	CNAME	ns1

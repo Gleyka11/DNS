@@ -1,4 +1,5 @@
 zone "gleyka.asa.br" {
     type master;
     file "/etc/bind/db.gleyka.asa.br";
+    allow-transfer {0.0.0.0; };		
 };
